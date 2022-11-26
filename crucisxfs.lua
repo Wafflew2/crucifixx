@@ -12,7 +12,7 @@ local LeftC1 = LeftArm.LeftShoulder.C1
         RightArm.Name = "R_Arm"
         LeftArm.Name = "L_Arm"
         
-        RightArm.RightShoulder.C1 = RightC1 * CFrame.Angles(math.rad(-90), math.rad(-15), 0)
+        RightArm.RightShoulder.C1 = RightC1 * CFrame.Angles(math.rad(1), math.rad(90), 0)
         LeftArm.LeftShoulder.C1 = LeftC1 * CFrame.new(-0.2, -0.3, -0.5) * CFrame.Angles(math.rad(-125), math.rad(25), math.rad(25))
         for _, v in next, Hum:GetPlayingAnimationTracks() do
             v:Stop()
